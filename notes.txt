@@ -1,0 +1,34 @@
+install virtual environment
+py -m pip install virtualenv
+
+2. to create a virtual environment
+py -m venv venv
+
+3. activate virtual environment
+venv\Scripts\activate
+
+4. create a server inside virtual environment (using flask)
+py -m pip install flask
+MAC
+python -m venv venv 
+
+activate the virtual environment
+WINDOW
+venv\Scripts\activate
+MAC
+source venv/bin/activate
+
+lets create a server inside of the virtual environment (using flask)
+WIN
+py -m pip install flask 
+MAC
+python3 -m install flask 
+
+"Pymongo methods"
+insert_one
+find_one_and_update
+find({})
+delete_one
+delete_many
+update_one
+update_many
